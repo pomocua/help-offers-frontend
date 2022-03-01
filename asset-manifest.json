@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/help-offers-frontend/static/css/main.93a0497a.css",
+    "main.js": "/help-offers-frontend/static/js/main.96e5d680.js",
+    "index.html": "/help-offers-frontend/index.html",
+    "main.93a0497a.css.map": "/help-offers-frontend/static/css/main.93a0497a.css.map",
+    "main.96e5d680.js.map": "/help-offers-frontend/static/js/main.96e5d680.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a0497a.css",
+    "static/js/main.96e5d680.js"
+  ]
+}
