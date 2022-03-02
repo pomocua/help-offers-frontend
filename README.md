@@ -1,3 +1,12 @@
+
+## To run project:
+yarn start
+
+## To build for github pages:
+```yarn build``` create build
+
+```yarn deploy```send it to github pages
+
 ## New component generation cli:
 
 You can generate component with:

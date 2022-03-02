@@ -22,15 +22,15 @@ const settings = {
 }
 
 fetchMock
-  .get('http://localhost:3000/fakeapi/offers', apiOffersResponseData, settings)
+  .get('path:/fakeapi/offers', apiOffersResponseData, settings)
   .get(
-    'http://localhost:3000/fakeapi/offers?city=W&availablePlaces=3&invitePeriodFIVE_DAYS&withAnimals=false',
+    'path:/fakeapi/offers?city=W&availablePlaces=3&invitePeriodFIVE_DAYS&withAnimals=false',
     apiOffersResponseData,
     settings,
   )
-  .get('http://localhost:3000/fakeapi/offers/1', apiOfferResponseData, settings)
-  .get('http://localhost:3000/fakeapi/cities', apiCitiesResponseData, settings)
-  .post('http://localhost:3000/fakeapi/offers', apiCitiesResponseData, settings)
+  .get('path:/fakeapi/offers/1', apiOfferResponseData, settings)
+  .get('path:/fakeapi/cities', apiCitiesResponseData, settings)
+  .post('path:/fakeapi/offers', apiCitiesResponseData, settings)
 
 export const apiSlice = createApi({
   reducerPath: 'api',
