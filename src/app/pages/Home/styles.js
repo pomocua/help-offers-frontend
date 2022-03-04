@@ -38,7 +38,6 @@ export const StyledText = styled(Typography)`
 export const StyledInputsWrapper = styled(Grid)`
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
 
   ${(props) => props.theme.breakpoints.down('md')} {
     flex-direction: column;
@@ -77,12 +76,12 @@ export const StyledButtonsWrapper = styled(Grid).attrs(() => ({
   container: 'true',
   spacing: 0,
 }))`
+  position: absolute;
+  bottom: -18px;
   justify-content: center;
-  margin-bottom: 30px;
 `
 
-export const StyledFilterButton = styled(Button)`
-  ${(props) => props.theme.breakpoints.down('md')} {
-    width: 100%;
-  }
+export const StyledFilterButton = styled(Button).attrs(() => ({elevation: 6}))`
+  border-radius: 40px;
+  padding: 8px 16px;
 `

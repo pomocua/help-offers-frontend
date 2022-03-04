@@ -10,7 +10,7 @@ import OffersSkeleton from './components/OffersSkeleton/OffersSkeleton'
 
 const Home = () => {
   const offersData = useGetOffersQuery()
-  console.log(offersData.error)
+
   return (
     <PageLayout>
       <StyledPromoWrapper container>

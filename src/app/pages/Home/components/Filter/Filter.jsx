@@ -18,6 +18,7 @@ import {
 import global from '../../../../../config/constants/helpOffer.json'
 import {useGetCitiesQuery} from '../../../../../features/api/apiSlice'
 import {FilterInputsSkeleton} from './FilterInputsSkeleton'
+import {StyledPaper} from './styles'
 
 const Filter = () => {
   const citiesFetched = useGetCitiesQuery()
@@ -43,7 +44,7 @@ const Filter = () => {
   }
 
   return (
-    <>
+    <StyledPaper>
       <StyledInputsWrapper container spacing={2}>
         {citiesFetched.isLoading ? (
           <FilterInputsSkeleton />
@@ -120,7 +121,7 @@ const Filter = () => {
           {global.home.filterButtonText}
         </StyledFilterButton>
       </StyledButtonsWrapper>
-    </>
+    </StyledPaper>
   )
 }
 

@@ -5,8 +5,10 @@ const common = css`
   font-size: 14px;
 `
 
-export const StyledCard = styled(Card)`
-  border: 1px solid ${(props) => props.theme.palette.grey['400']};
+export const StyledCard = styled(Card).attrs(() => ({
+  elevation: 3,
+}))`
+  //border: 1px solid ${(props) => props.theme.palette.grey['400']};
   height: 100%;
 `
 
