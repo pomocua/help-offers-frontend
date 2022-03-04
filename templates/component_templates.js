@@ -2,10 +2,8 @@
 
 exports.component = (name) => `import React from 'react'
 
-const ${name} = ({className, ...rest}) => {
-  return (
-    <div>${name}contenthere</div>
-  )
+const ${name} = () => {
+  return <div>${name}</div>
 }
 
 export default ${name}
