@@ -45,6 +45,6 @@ We use plane js in ``.js, .jsx`` files
 
 It depends on you how you want to code
 
-##Componts base 
+##Components base 
 
 Material UI https://mui.com/getting-started/installation/
