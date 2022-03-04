@@ -35,3 +35,12 @@ Add prefix ``Styled`` when you create styled component
 We use Redux Toolkit and its aproach to manage data https://nicedoc.io/reactjs/redux/blob/master/docs/tutorials/essentials/part-5-async-logic.md
 
 To handle requests we use RTK Query https://redux-toolkit.js.org/rtk-query/overview
+
+
+##Tipescript
+
+We use typescript in ``.ts, .tsx`` files
+
+We use plane js in ``.js, .jsx`` files
+
+It depends on you how you want to code
