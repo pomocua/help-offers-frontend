@@ -5,6 +5,15 @@ export const theme = createTheme({
   status: {
     danger: orange[500],
   },
+  typography: {
+    fontFamily: 'Ukraine',
+    h1: {fontFamily: 'UkraineHead'},
+    h2: {fontFamily: 'UkraineHead'},
+    h3: {fontFamily: 'UkraineHead'},
+    h4: {fontFamily: 'UkraineHead'},
+    h5: {fontFamily: 'UkraineHead'},
+    h6: {fontFamily: 'UkraineHead'},
+  },
   breakpoints: {
     values: {
       xs: 0,
