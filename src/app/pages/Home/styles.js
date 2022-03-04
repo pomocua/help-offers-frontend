@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import {
-  Button,
   Checkbox,
   FormControl,
   FormControlLabel,
@@ -70,18 +69,4 @@ export const StyledCheckbox = styled(Checkbox)`
   ${(props) => props.theme.breakpoints.down('md')} {
     padding: 0 5px;
   }
-`
-
-export const StyledButtonsWrapper = styled(Grid).attrs(() => ({
-  container: 'true',
-  spacing: 0,
-}))`
-  position: absolute;
-  bottom: -18px;
-  justify-content: center;
-`
-
-export const StyledFilterButton = styled(Button).attrs(() => ({elevation: 6}))`
-  border-radius: 40px;
-  padding: 8px 16px;
 `

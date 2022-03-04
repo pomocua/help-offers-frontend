@@ -21,7 +21,7 @@ const Home = () => {
         <StyledText variant="body1">{global.home.text}</StyledText>
       </StyledPromoWrapper>
       <Filter />
-      <Paginator>
+      <Paginator topPagination show>
         {/* eslint-disable-next-line no-nested-ternary */}
         {offersData.isUninitialized || offersData.isLoading ? (
           <OffersSkeleton />

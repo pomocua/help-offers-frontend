@@ -8,17 +8,15 @@ import {
   TextField,
 } from '@mui/material'
 import {
-  StyledButtonsWrapper,
   StyledCheckbox,
   StyledCheckboxFormControl,
-  StyledFilterButton,
   StyledFormControlLabel,
   StyledInputsWrapper,
 } from '../../styles'
 import global from '../../../../../config/constants/helpOffer.json'
 import {useGetCitiesQuery} from '../../../../../features/api/apiSlice'
 import {FilterInputsSkeleton} from './FilterInputsSkeleton'
-import {StyledPaper} from './styles'
+import {StyledButtonsWrapper, StyledFilterButton, StyledPaper} from './styles'
 
 const Filter = () => {
   const citiesFetched = useGetCitiesQuery()
